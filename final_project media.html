@@ -75,10 +75,14 @@ body {
 }
 
 .row > .column {
-  padding: 0 8px;
+  padding-top: 8px;
+  padding-left: 300px;
+  padding-right: 300px;
 margin:auto;
-width:25%;
-height:25%;
+width:250px;
+height:250px;
+position:relative;
+display: inline-block;
     }
 
 .row:after {
@@ -89,10 +93,10 @@ height:25%;
 }
 
 .column {
-float: left;
+margin: auto;
 padding:2px;
-width:25%
-
+width:250px;
+display: inline-block;
 
 }
 
@@ -302,16 +306,16 @@ function showSlides(n) {
 </script>
 <div class="row">
   <div class="column">
-    <img src="b64d build.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+    <img src="b64d build.jpg" style="width:250px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="ocrc.jpg" style="width:100%;height:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="ocrc.jpg" style="width:250px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="norcal2.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+    <img src="norcal2.jpg" style="width:250px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="deltarc.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+    <img src="deltarc.jpg" style="width:250px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
   </div>
 </div>
 
