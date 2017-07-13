@@ -12,11 +12,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
   .map1{
-    position: absolute;
-   margin: auto;
-   top: 42%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+    width: 600px;
+        height: 400px;
+        margin: 0 auto;
+        display:block
   }
   .video1{
     position: absolute;
@@ -68,7 +67,7 @@
 }
 body {
   font-family: Verdana, sans-serif;
-  margin: 0;
+  margin: auto;
 }
 
 * {
@@ -77,18 +76,23 @@ body {
 
 .row > .column {
   padding: 0 8px;
-margin-top:40%;
-}
+margin:auto;
+width:25%;
+height:25%;
+    }
 
 .row:after {
   content: "";
   display: table;
   clear: both;
+
 }
 
 .column {
-  float: left;
-  width: 25%;
+float: left;
+padding:2px;
+width:25%
+
 
 }
 
@@ -104,6 +108,7 @@ margin-top:40%;
   height: 100%;
   overflow: auto;
   background-color: black;
+
 }
 
 /* Modal Content */
@@ -252,7 +257,7 @@ img.hover-shadow {
 <p align="center"><font size="4px">please check out our local rc track <a href="http://www.norcalhobbies.com/">Norcal Hobbies</a>
 </p>
 
-<iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d296749.29623804515!2d-122.18322324975294!3d37.50469382925611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd27d9936d4156b57!2sNor-Cal+Hobbies!5e0!3m2!1sen!2sus!4v1499725157398" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe class="map1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d296749.29623804515!2d-122.18322324975294!3d37.50469382925611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd27d9936d4156b57!2sNor-Cal+Hobbies!5e0!3m2!1sen!2sus!4v1499725157398" width="600" height="450"  frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
 
@@ -300,7 +305,7 @@ function showSlides(n) {
     <img src="b64d build.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
   </div>
   <div class="column">
-    <img src="ocrc.jpg" style="width:100%;height:10%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+    <img src="ocrc.jpg" style="width:100%;height:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
   </div>
   <div class="column">
     <img src="norcal2.jpg" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
